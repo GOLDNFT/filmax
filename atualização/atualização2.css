@@ -1,0 +1,79 @@
+header{
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 98.9%;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    
+}
+
+a { color: white;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(58, 58, 58);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    text-shadow: 3.5px 1px 1px gray;
+    font-size: 60px;
+}
+.rodar{
+    cursor: pointer;
+
+}
+
+main{ margin-top: 270px;
+
+}
+
+.allcard{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+-ms-flex-align: center;
+margin-top: 100px;
+}
+
+.card{
+background-color: rgb(151, 6, 6);
+width: 200px;
+padding-top: 20px;
+margin-bottom: 70px;
+margin-left: 20px;
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+}
+
+@media(width < 600px){
+    h1{
+        font-size: 40px;
+    }
+    header{
+        font-size: 16px;
+        width: 97%;
+    }
+
+}
+@media(width < 451px){
+    header{
+        width: 96%;
+    }
+    .card{
+        width: 150px;
+    }
+}
+
+
