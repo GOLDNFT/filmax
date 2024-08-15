@@ -39,22 +39,26 @@ main{ margin-top: 270px;
 
 }
 
-.allcard{
-display: flex;
-justify-content: space-around;
-margin-top: 100px;
+.Trailer{
+    background-color: rgba(97, 95, 95, 0.322);
+    width: 90%;
+    margin: auto;
+    padding: 7px;
+    border:2px solid;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+padding-bottom: 60px;
+}
+iframe{ width: 70%;
+aspect-ratio: 16/9;
+    
+
+
+
 
 }
 
-.card{
-background-color: rgb(151, 6, 6);
-width: 12%;
-padding-top: 10px;
-padding-bottom: px;
-margin-left: 20px;
-text-align: center;
-font-family: 'Courier New', Courier, monospace;
-}
 
 @media(width < 600px){
     h1{
@@ -69,6 +73,9 @@ font-family: 'Courier New', Courier, monospace;
 @media(width < 451px){
     header{
         width: 96%;
+    }
+    .card{
+        width: 150px;
     }
 }
 
