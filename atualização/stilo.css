@@ -57,6 +57,50 @@ text-align: center;
 font-family: 'Courier New', Courier, monospace;
 }
 
+#contato2{
+
+background-color: rgba(75, 74, 74, 0.831);
+width: 75%;
+margin: auto;
+text-align: center;
+color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+border-radius: 10px;
+border: 2px solid black;
+padding: 20px;
+box-shadow: 2px 2px 5px red;
+text-shadow: 2px 2px 5px grey;
+
+}
+
+#Zap{
+width: 50%;
+text-align: center;
+margin: auto;
+background-color: rgb(1, 103, 1);
+border-radius: 10px;
+
+}
+#Email{
+
+background-color: black;
+color: white;
+width: 50%;
+padding: 10px;
+text-align: center;
+margin: auto;
+margin-top: 30px;
+border-radius: 30px;
+font-size: 20px;
+
+
+
+
+
+}
+
+
 @media(width < 600px){
     h1{
         font-size: 40px;
@@ -66,7 +110,16 @@ font-family: 'Courier New', Courier, monospace;
         width: 97%;
     }
 
+    #Email{
+        font-size: 1px;  
+    }
+
 }
+
+
+
+
+
 @media(width < 451px){
     header{
         width: 96%;
