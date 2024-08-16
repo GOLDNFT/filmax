@@ -111,7 +111,10 @@ font-size: 20px;
     }
 
     #Email{
-        font-size: 1px;  
+        font-size: 10px;  
+    }
+    #contato2{
+        font-size: 16px;
     }
 
 }
@@ -126,6 +129,9 @@ font-size: 20px;
     }
     .card{
         width: 150px;
+    }
+    #Email{
+        font-size: 8px;
     }
 }
 
